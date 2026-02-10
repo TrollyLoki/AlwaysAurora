@@ -14,7 +14,8 @@ public:
 	UFUNCTION( BlueprintPure, Category = "AlwaysAurora" )
 	static FName GetWeatherStateName(const FWeatherChanceEntry& State);
 	
-	UFUNCTION( BlueprintCallable, Category = "AlwaysAurora" )
+	UFUNCTION( BlueprintCallable, Category = "AlwaysAurora", Meta = (DeprecatedFunction,
+		DeprecationMessage = "mWeatherStateList is now readable via access transformer") )
 	static int32 FindWeatherStateByName(const AFGSkySphere* SkySphere, const FName EntryName);
 	
 	UFUNCTION( BlueprintCallable, Category = "AlwaysAurora" )
