@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 2,
-	"VersionName": "2.0.0",
+	"VersionName": "2.0.1-dev",
 	"FriendlyName": "Always Aurora",
 	"Description": "Force a weather event of your choice to be active all the time.",
 	"Category": "Modding",
@@ -22,7 +22,7 @@
 			"SemVersion": "^3.12.0"
 		}
 	],
-	"SemVersion": "2.0.0",
+	"SemVersion": "2.0.1-dev",
 	"GameVersion": ">=491125",
 	"RequiredOnRemote": false,
 	"Modules": [
