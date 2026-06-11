@@ -19,3 +19,8 @@ EWeatherInterpState UAlwaysAuroraSkySphereLibrary::GetCurrentWeatherState(AFGSky
 {
 	return SkySphere->mCurrentWeatherState;
 }
+
+void UAlwaysAuroraSkySphereLibrary::RollNewWeather(AFGSkySphere* SkySphere)
+{
+	SkySphere->RollNewWeather();
+}

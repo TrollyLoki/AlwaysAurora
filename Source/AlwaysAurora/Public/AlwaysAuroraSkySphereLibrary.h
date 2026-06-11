@@ -22,4 +22,7 @@ class ALWAYSAURORA_API UAlwaysAuroraSkySphereLibrary : public UBlueprintFunction
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="AlwaysAurora")
 	static EWeatherInterpState GetCurrentWeatherState(AFGSkySphere* SkySphere);
 
+	UFUNCTION(BlueprintCallable, Category="AlwaysAurora")
+	static void RollNewWeather(AFGSkySphere* SkySphere);
+
 };
